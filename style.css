@@ -1,0 +1,99 @@
+h1 {
+   color: #FFD700;
+   font-size: 48px;
+   font-family: 'Arialw', sans-serif;
+   font-weight: lighter;
+   text-align: center;
+ }
+ 
+img{
+  height: 100px;
+
+}
+
+ .image-container{
+   vertical-align: text-top;
+   height: 50px;
+   text-align: left;
+   
+ }
+
+ body {
+   text-align: center;
+   font-family: 'Arial', sans-serif;
+   background-color: rgb(0, 42, 82);
+   margin: 0;
+   padding: 10px
+   
+}
+
+form {
+   background-color: #FFD700;
+   padding: 50px;
+   border: 1px solid #ffffff;
+   border-radius: 50px;
+   width: 500px;
+   margin: 0 auto;
+   
+ }
+ 
+ input[type="text"], input[type="email"], input[type="password"], input[type="mobile number"] {
+   width: 100%;
+   padding: 10px;
+   margin: 10px 0;
+   border: 1px solid #ccc;
+   border-radius: 3px;
+   box-sizing: border-box;
+   font-weight: 700;
+   line-height: .5cm;
+   
+ }
+ 
+ input[type="submit"] {
+   background-color: #000000;
+   color: white;
+   padding: 10px;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+   width: 100%;
+ }
+
+ input[type="reset"] {
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+
+ }
+ 
+ input[type="submit"]:hover {
+   background-color: white;
+ }
+
+  input[type="reset"]:hover {
+  background-color: white;
+}
+
+
+ .flex-container {
+
+  gap: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  
+
+}
+
+footer {
+   color: #FFD700;
+   font-size: 12px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   text-align: center;
+}
